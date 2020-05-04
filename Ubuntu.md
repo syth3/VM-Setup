@@ -15,3 +15,7 @@
 
 ## Configure following settings
 - Change power savings to "Never" instead of "5 minutes"
+
+## Miscellaneous
+- Install Docker and Docker Compose with https://raw.githubusercontent.com/syth3/Install-Scripts/master/Install-Docker-New.sh
+- Add a non-root user to the Docker group (sudo usermod -aG docker <username>)
