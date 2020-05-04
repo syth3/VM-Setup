@@ -12,3 +12,6 @@
 
 ## Install the following configs
 - .vimrc from https://raw.githubusercontent.com/syth3/Configs/master/vimrc
+
+## Configure following settings
+- Change power savings to "Never" instead of "5 minutes"
