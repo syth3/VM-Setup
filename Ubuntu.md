@@ -9,6 +9,7 @@
 - Visual Studio Code
 - Pycharm
 - Intellij
+- Wireshark
 
 ## Install the following configs
 - .vimrc from https://raw.githubusercontent.com/syth3/Configs/master/vimrc
