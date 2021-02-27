@@ -9,3 +9,6 @@
 - Python
 - 7zip
 - Firefox
+
+## Settings
+- Set power settings to never turn screen off
