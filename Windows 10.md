@@ -1,0 +1,11 @@
+# Tools
+- Remote Server Administration Tools
+- Pycharm
+- Intellij
+- Wireshark
+- Vscode
+- Git
+- TreeSize free
+- Python
+- 7zip
+- Firefox
