@@ -7,7 +7,6 @@
 - Vscode
 - Git
 - TreeSize free
-- Python
 - 7zip
 - Firefox
 
