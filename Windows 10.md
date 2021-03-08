@@ -1,6 +1,7 @@
 # Tools
 - Remote Server Administration Tools
 - Pycharm
+- Python
 - Intellij
 - Wireshark
 - Vscode
