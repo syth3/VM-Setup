@@ -1,0 +1,27 @@
+---
+- name: Setup localhost for deployment
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Ensure ./roles directory exists
+      file:
+        path: "{{ playbook_dir }}/roles"
+        state: directory
+
+    - name: Download my custom roles
+      git:
+        repo: https://github.com/syth3/Ansible-Roles
+        dest: ./roles
+      
+    - name: Clean up my custom roles git artifacts
+      file:
+        path: "{{ item }}"
+        state: absent
+      with_items:
+        - ./roles/.git
+        - ./roles/.gitignore
+
+    - name: Download Ansible Galaxy roles
+      command: ansible-galaxy install -r requirements.yml -p ./roles
+    
+    

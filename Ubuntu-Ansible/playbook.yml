@@ -1,0 +1,105 @@
+- name: Install APT packages
+  hosts: ubuntu_workstations
+  become: yes
+  tasks:
+    - name: Install apt packages
+      apt:
+        update_cache: yes
+        name:
+          - vim
+          - curl
+          - git
+          - tmux
+        state: latest
+
+- name: Run custom roles
+  hosts: ubuntu_workstations
+  roles:
+    - configure-bash
+    - install-chrome
+    - install-python-from-source
+    - install-pip
+    - install-vscode
+    - install-wireshark
+  
+- name: Run galaxy roles
+  hosts: ubuntu_workstations
+  become: yes
+  roles:
+    - geerlingguy.docker
+
+- name: Install Docker pip package
+  hosts: ubuntu_workstations
+  tasks:
+    - name: Install Docker pip package
+      pip:
+        name: docker
+        extra_args: --user
+        executable: "/home/{{ username }}/.local/bin/pip"
+
+- name: Install Snap and Snap packages
+  hosts: ubuntu_workstations
+  become: yes
+  tasks:
+    - name: Install snapd
+      apt:
+        update_cache: yes
+        name: snapd
+        state: latest
+
+    - name: Install Snap packages
+      community.general.snap:
+        name:
+          - pycharm-community
+          - intellij-idea-community
+          - postman
+        classic: yes
+        state: present
+
+- name: Configure GUI
+  hosts: ubuntu_workstations
+  tasks:
+    - name: Set automatic blank screen to never
+      shell: gsettings set org.gnome.desktop.session idle-delay 0
+
+    - name: Set favorites
+      shell: >
+        gsettings set org.gnome.shell favorite-apps 
+        "['google-chrome.desktop', 'firefox.desktop', 
+        'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 
+        'code_code.desktop', 'postman_postman.desktop', 
+        'intellij-idea-community_intellij-idea-community.desktop', 
+        'pycharm-community_pycharm-community.desktop', 'wireshark.desktop']"
+
+- name: Set vimrc
+  hosts: ubuntu_workstations
+  tasks:
+    - name: Set vimrc
+      get_url:
+        url: https://raw.githubusercontent.com/syth3/Configs/master/vimrc
+        dest: "/home/{{ username }}/.vimrc"
+        mode: '0766'
+
+- name: Finishing touches and clean up
+  hosts: ubuntu_workstations
+  become: yes
+  tasks:
+    - name: Update, upgrade, and autoremove all apt packages
+      apt:
+        update_cache: yes
+        autoremove: yes
+        upgrade: yes
+
+    - name: Remove SSH key
+      file:
+        path: "{{ item }}"
+        state: absent
+      with_items:
+        - "/home/{{ username }}/.ssh/authorized_keys"
+
+    - name: Reboot system (Should fail and ignore)
+      reboot:
+        test_command: whoami
+        reboot_timeout: 1
+      ignore_errors: true
+
