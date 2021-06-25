@@ -10,6 +10,7 @@
           - curl
           - git
           - tmux
+          - sshpass
         state: latest
 
 - name: Run custom roles
