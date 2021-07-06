@@ -3,6 +3,13 @@
   hosts: localhost
   gather_facts: no
   tasks:
+    - name: Install sshpass package
+      become: yes
+      apt:
+        name: sshpass
+        state: present
+        update_cache: yes
+  
     - name: Ensure ./roles directory exists
       file:
         path: "{{ playbook_dir }}/roles"
