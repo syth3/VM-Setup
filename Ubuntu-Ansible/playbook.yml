@@ -92,13 +92,6 @@
         autoremove: yes
         upgrade: yes
 
-    - name: Remove SSH key
-      file:
-        path: "{{ item }}"
-        state: absent
-      with_items:
-        - "/home/{{ username }}/.ssh/authorized_keys"
-
     - name: Reboot system (Should fail and ignore)
       reboot:
         test_command: whoami
