@@ -26,6 +26,7 @@ choco install wireshark -y
 # Non-VM Tools
 choco install autohotkey -y
 choco install bitwarden -y
+choco install bulk-crap-uninstaller -y
 choco install cinebench -y
 choco install cpu-z -y
 choco install discord -y
@@ -43,7 +44,7 @@ choco install idrive -y
 choco install keepass -y
 choco install licecap -y
 choco install logitech-options -y
-choco install choco install office365proplus -y
+choco install office365proplus -y
 choco install obs-studio -y
 # NO PANDORA INSTALLER
 choco install powertoys -y
@@ -56,8 +57,8 @@ choco install steam-client -y
 choco install teamviewer -y
 choco install virtualbox -y
 choco install vmwareworkstation -y
-choco install winaero-tweaker
-choco install wsl -y
+choco install winaero-tweaker -y
+choco install wsl2Y -y
 choco install wsl-kalilinux -y
 choco install wsl-ubuntu-2004 -y
 choco install zoom -y
