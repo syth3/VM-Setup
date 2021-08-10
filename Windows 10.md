@@ -13,12 +13,12 @@
 - Python
 - Remote Server Administration Tools
 - TreeSize free
-- VLC
-- Vscode
 - Windows Terminal
 - WinMerge
 - WinSCP
 - Wireshark
+- VLC
+- Vscode
 
 
 # Non-VM Tools
