@@ -13,13 +13,12 @@
 - Python
 - Remote Server Administration Tools
 - TreeSize free
+- VLC
+- Vscode
 - Windows Terminal
 - WinMerge
 - WinSCP
 - Wireshark
-- VLC
-- Vscode
-
 
 # Non-VM Tools
 - Discord
@@ -38,6 +37,7 @@
 - TeamViewer
 - VirtualBox
 - VMware Workstation Pro
+- WSL
 - Zoom
 
 ## Settings
