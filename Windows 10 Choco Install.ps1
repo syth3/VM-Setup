@@ -33,6 +33,7 @@ choco install docker-desktop -y
 # NO EASY WINDOW SWITCHER INSTALLER
 choco install encrypto -y
 choco install everything -y
+choco install file-converter -y
 choco install google-backup-and-sync -y
 choco install gpu-z -y
 choco install greenshot -y
@@ -41,7 +42,8 @@ choco install hwmonitor -y
 choco install idrive -y
 choco install keepass -y
 choco install licecap -y
-choco install microsoft-office-deployment -y
+choco install logitech-options -y
+choco install choco install office365proplus -y
 choco install obs-studio -y
 # NO PANDORA INSTALLER
 choco install powertoys -y
