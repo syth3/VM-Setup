@@ -33,6 +33,7 @@
 - Easy Window Switcher
 - Encrypto
 - Everything by voidtools
+- File Converter
 - Google Backup and Sync
 - GPU-Z
 - GreenShot
@@ -41,6 +42,7 @@
 - IDrive
 - KeePass2
 - LICEcap
+- Logitech Options
 - Microsoft Office
 - OBS
 - Pandora
