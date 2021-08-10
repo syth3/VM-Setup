@@ -38,4 +38,6 @@ choco install teamviewer -y
 choco install virtualbox -y
 choco install vmwareworkstation -y
 choco install wsl
+choco install wsl-kalilinux
+choco install wsl-ubuntu-2004
 choco install zoom -y
