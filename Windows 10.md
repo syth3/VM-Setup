@@ -12,6 +12,7 @@
 - Pycharm
 - Python
 - Remote Server Administration Tools
+- Sysinternals
 - TreeSize free
 - VLC
 - Vscode
@@ -38,6 +39,8 @@
 - VirtualBox
 - VMware Workstation Pro
 - WSL
+- WSL -> Ubuntu 20.04
+- WSL -> Kali
 - Zoom
 
 ## Settings
