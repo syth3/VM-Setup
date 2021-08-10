@@ -18,7 +18,7 @@ choco install treesizefree -y
 choco install vagrant -y
 choco install vlc -y
 choco install vscode -y
-choco install microsoft-windows-terminal
+choco install microsoft-windows-terminal -y
 choco install winmerge -y
 choco install winscp -y
 choco install wireshark -y
