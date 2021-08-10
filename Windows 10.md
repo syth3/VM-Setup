@@ -15,6 +15,7 @@
 - TreeSize free
 - VLC
 - Vscode
+- Windows Terminal
 - WinMerge
 - WinSCP
 - Wireshark
