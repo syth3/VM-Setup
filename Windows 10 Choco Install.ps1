@@ -57,8 +57,9 @@ choco install steam-client -y
 choco install teamviewer -y
 choco install virtualbox -y
 choco install vmwareworkstation -y
-choco install winaero-tweaker -y
-choco install wsl2 -y --exit-when-reboot-detected
+# Winaero Tweaker Had a Checksum issue at the time of writing this
+#choco install winaero-tweaker -y
+choco install wsl2 -y
 choco install wsl-kalilinux -y
 choco install wsl-ubuntu-2004 -y
 choco install zoom -y
