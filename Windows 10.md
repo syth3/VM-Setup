@@ -9,11 +9,13 @@
 - Nmap
 - Notepad++
 - Postman
+- Putty
 - Pycharm
 - Python
 - Remote Server Administration Tools
 - Sysinternals
 - TreeSize free
+- Vagrant
 - VLC
 - Vscode
 - Windows Terminal
@@ -22,22 +24,37 @@
 - Wireshark
 
 # Non-VM Tools
+- AutoHotKey
+- Bitwarden
+- Cinebench
+- CPU-Z
 - Discord
 - Docker for Desktop
+- Easy Window Switcher
+- Encrypto
+- Everything by voidtools
 - Google Backup and Sync
+- GPU-Z
 - GreenShot
+- HWiNFO
+- HWMonitor
 - IDrive
 - KeePass2
+- LICEcap
 - Microsoft Office
 - OBS
 - Pandora
 - PowerToys
+- Prime95 (Portable)
 - Rambox
+- Rufus
+- Search Deflector
 - Spotify
 - Steam
 - TeamViewer
 - VirtualBox
 - VMware Workstation Pro
+- Winaero Tweaker
 - WSL
 - WSL -> Ubuntu 20.04
 - WSL -> Kali
