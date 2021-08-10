@@ -13,12 +13,12 @@ choco install pycharm-community -y
 choco install python -y
 choco install rsat -y
 choco install treesizefree -y
+choco install vlc -y
+choco install vscode -y
 choco install microsoft-windows-terminal
 choco install winmerge -y
 choco install winscp -y
 choco install wireshark -y
-choco install vlc -y
-choco install vscode -y
 
 # Non-VM Tools
 choco install discord -y
@@ -37,4 +37,5 @@ choco install steam-client -y
 choco install teamviewer -y
 choco install virtualbox -y
 choco install vmwareworkstation -y
+choco install wsl
 choco install zoom -y
