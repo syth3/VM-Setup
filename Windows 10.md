@@ -26,6 +26,7 @@
 # Non-VM Tools
 - AutoHotKey
 - Bitwarden
+- Bulk Crap Uninstaller
 - Cinebench
 - CPU-Z
 - Discord
