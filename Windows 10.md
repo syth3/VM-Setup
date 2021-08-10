@@ -1,43 +1,44 @@
 # Tools
-- Remote Server Administration Tools
+- 7zip
+- Burp
+- Chrome
+- Firefox
+- Git
+- Intellij
+- iperf
+- Nmap
+- Notepad++
+- Postman
 - Pycharm
 - Python
-- Intellij
-- Wireshark
-- Vscode
-- Git
+- Remote Server Administration Tools
 - TreeSize free
-- 7zip
-- Firefox
-- Chrome
-- Notepad++
-- WinMerge
 - VLC
-- Burp
+- Vscode
+- WinMerge
 - WinSCP
-- iperf
-- Postman
-- Nmap
+- Wireshark
+
 
 # Non-VM Tools
-- Zoom
 - Discord
-- TeamViewer
-- Spotify
-- Pandora
+- Docker for Desktop
 - Google Backup and Sync
 - GreenShot
-- Steam
-- KeePass2
-- PowerToys
-- Docker for Desktop
-- VMware Workstation Pro
-- VirtualBox
 - IDrive
+- KeePass2
 - Microsoft Office
 - OBS
+- Pandora
+- PowerToys
 - Rambox
 - Ring
+- Spotify
+- Steam
+- TeamViewer
+- VirtualBox
+- VMware Workstation Pro
+- Zoom
 
 ## Settings
 - Set power settings to never turn screen off
