@@ -33,7 +33,6 @@
 - Pandora
 - PowerToys
 - Rambox
-- Ring
 - Spotify
 - Steam
 - TeamViewer
