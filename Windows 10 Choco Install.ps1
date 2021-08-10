@@ -12,6 +12,7 @@ choco install postman -y
 choco install pycharm-community -y
 choco install python -y
 choco install rsat -y
+choco install sysinternals -y
 choco install treesizefree -y
 choco install vlc -y
 choco install vscode -y
@@ -37,7 +38,7 @@ choco install steam-client -y
 choco install teamviewer -y
 choco install virtualbox -y
 choco install vmwareworkstation -y
-choco install wsl
-choco install wsl-kalilinux
-choco install wsl-ubuntu-2004
+choco install wsl -y
+choco install wsl-kalilinux -y
+choco install wsl-ubuntu-2004 -y
 choco install zoom -y
