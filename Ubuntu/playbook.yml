@@ -10,7 +10,6 @@
           - curl
           - git
           - tmux
-          - sshpass
           - open-vm-tools-desktop
         state: latest
 
