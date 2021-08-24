@@ -5,7 +5,7 @@
 - tmux
 - Wireshark
 
-## Install Snap Packages
+## Install other software
 - Postman
 - Visual Studio Code
 - Pycharm
@@ -23,3 +23,4 @@
 - Add a non-root user to the Docker group (sudo usermod -aG docker `username`)
 - Modify .bashrc to only show current directory in terminal prompt (change the \w (lowercase) to \W (uppercase))
 - Set .bashrc aliases
+- Setup foxyproxy on Firefox and instal the Burp SSL certificate
