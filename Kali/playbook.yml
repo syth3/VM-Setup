@@ -16,7 +16,7 @@
 - name: Run custom roles
   hosts: kali_workstations
   roles:
-    - configure-bash
+    # - configure-bash
     - install-chrome
     - install-jetbrains-toolbox
     - install-python-from-source
