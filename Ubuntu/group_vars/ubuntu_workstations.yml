@@ -2,7 +2,7 @@
 username: ubuntu
 
 # Python variables
-python_version: 3.9.5
+python_version: 3.9.6
 
 # Pip variables
 python_executable: /opt/"Python-{{ python_version }}"/python
