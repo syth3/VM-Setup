@@ -3,6 +3,7 @@
 - curl
 - git
 - tmux
+- htop
 - Wireshark
 
 ## Install Snap Packages
