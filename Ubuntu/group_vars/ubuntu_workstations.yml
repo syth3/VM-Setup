@@ -1,6 +1,9 @@
 # General variables
 username: ubuntu
 
+# Bash Variables
+install_bashrc: yes
+
 # Python variables
 python_version: 3.9.6
 
