@@ -29,15 +29,6 @@
   roles:
     - geerlingguy.docker
 
-- name: Install Docker pip package
-  hosts: ubuntu_workstations
-  tasks:
-    - name: Install Docker pip package
-      pip:
-        name: docker
-        extra_args: --user
-        executable: "/home/{{ username }}/.local/bin/pip"
-
 - name: Install Snap and Snap packages
   hosts: ubuntu_workstations
   become: yes
