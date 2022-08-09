@@ -1,5 +1,6 @@
 - name: Install APT packages
-  hosts: ubuntu_workstations
+  hosts: localhost
+  connection: local 
   become: yes
   tasks:
     - name: Install apt packages
@@ -15,7 +16,8 @@
         state: latest
 
 - name: Run custom roles
-  hosts: ubuntu_workstations
+  hosts: localhost
+  connection: local
   roles:
     - configure-bash
     - install-chrome
@@ -25,13 +27,15 @@
     - install-wireshark
   
 - name: Run galaxy roles
-  hosts: ubuntu_workstations
+  hosts: localhost
+  connection: local
   become: yes
   roles:
     - geerlingguy.docker
 
 - name: Install Snap and Snap packages
-  hosts: ubuntu_workstations
+  hosts: localhost
+  connection: local
   become: yes
   tasks:
     - name: Install snapd
@@ -50,7 +54,8 @@
         state: present
 
 - name: Configure GUI
-  hosts: ubuntu_workstations
+  hosts: localhost
+  connection: local
   tasks:
     - name: Set automatic blank screen to never
       shell: gsettings set org.gnome.desktop.session idle-delay 0
@@ -65,7 +70,8 @@
         'pycharm-community_pycharm-community.desktop', 'wireshark.desktop']"
 
 - name: Set vimrc
-  hosts: ubuntu_workstations
+  hosts: localhost
+  connection: local
   tasks:
     - name: Set vimrc
       get_url:
@@ -74,7 +80,8 @@
         mode: '0766'
 
 - name: Finishing touches and clean up
-  hosts: ubuntu_workstations
+  hosts: localhost
+  connection: local
   become: yes
   tasks:
     - name: Update, upgrade, and autoremove all apt packages
