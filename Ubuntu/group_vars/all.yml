@@ -1,10 +1,6 @@
 # General variables
 username: ubuntu
 
-# Bash Variables
-bash_user: '{{ username }}'
-install_bashrc: yes
-
 # Python variables
 python_version: 3.9.6
 
@@ -12,6 +8,7 @@ python_version: 3.9.6
 python_executable: /opt/"Python-{{ python_version }}"/python
 
 # Bash variables
+install_bashrc: yes
 bash_user: '{{ username }}'
 bash_aliases:
   - { alias: 'python', command: '/opt/Python-{{ python_version }}/python' }
