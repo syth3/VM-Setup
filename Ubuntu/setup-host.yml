@@ -1,6 +1,7 @@
 ---
 - name: Setup localhost for deployment
   hosts: localhost
+  connection: local
   gather_facts: no
   tasks:
     - name: Install sshpass package
