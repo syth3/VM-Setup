@@ -4,13 +4,12 @@
 - Chrome
 - Firefox
 - Git
-- Intellij
+- JetBrains Toolbox
 - iperf
 - Nmap
 - Notepad++
 - Postman
 - Putty
-- Pycharm
 - Python
 - Remote Server Administration Tools
 - Sysinternals
@@ -30,7 +29,6 @@
 - Cinebench
 - CPU-Z
 - Discord
-- Docker for Desktop
 - Easy Window Switcher
 - Encrypto
 - Everything by voidtools
@@ -49,7 +47,6 @@
 - Pandora
 - PowerToys
 - Prime95 (Portable)
-- Rambox
 - Rufus
 - Search Deflector
 - Spotify
@@ -58,9 +55,6 @@
 - VirtualBox
 - VMware Workstation Pro
 - Winaero Tweaker
-- WSL
-- WSL -> Ubuntu 20.04
-- WSL -> Kali
 - Zoom
 
 ## Settings
